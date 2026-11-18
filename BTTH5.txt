@@ -1,0 +1,111 @@
+Phần 1: Sơ đồ mô tả chuỗi Prompt (Prompt Chaining Architecture)Plaintext[DỮ LIỆU GỐC KHÓA HỌC]
+(Python cơ bản | SV năm 1 (18-20t) | 8 tuần | KPI: 100 đăng ký | FB & TikTok)
+       │
+       ▼
+┌──────────────────────────────────────────────────────────┐
+│ PROMPT 1: Phân tích Chân dung Khách hàng Mục tiêu (ICP)   │
+└──────┬───────────────────────────────────────────────────┘
+       │ Output 1: Bảng chân dung Insight, Nỗi đau & Động lực
+       ▼
+┌──────────────────────────────────────────────────────────┐
+│ PROMPT 2: Xác định Thông điệp Truyền thông Chính         │
+└──────┬───────────────────────────────────────────────────┘
+       │ Output 2: Big Idea & 01 Thông điệp chủ đạo (Key Message)
+       ▼
+┌──────────────────────────────────────────────────────────┐
+│ PROMPT 3: Lập Kế hoạch Nội dung 7 Ngày (Content Plan)    │
+└──────┬───────────────────────────────────────────────────┘
+       │ Output 3: Lịch đăng bài chi tiết 7 ngày trên FB & TikTok
+       ▼
+┌──────────────────────────────────────────────────────────┐
+│ PROMPT 4: Sản xuất Nội dung Quảng cáo (Copy & Script)    │
+└──────┬───────────────────────────────────────────────────┘
+       │ Output 4: 02 Bài viết Facebook + 02 Kịch bản TikTok (30-45s)
+       ▼
+┌──────────────────────────────────────────────────────────┐
+│ PROMPT 5: Kiểm tra Tính nhất quán (Quality Assurance)     │
+└──────┬───────────────────────────────────────────────────┘
+       │ Output 5: Báo cáo đối chiếu thông số, KPI & Thông điệp
+       ▼
+[CHIẾN DỊCH TRUYỀN THÔNG HOÀN CHỈNH]
+Phần 2: Hệ thống 5 Prompt liên tiếpPrompt 1: Phân tích Chân dung Khách hàng Mục tiêuMarkdown# VAI TRÒ
+Bạn là Chuyên gia Nghiên cứu Thị trường & Hành vi Khách hàng trong lĩnh vực Giáo dục Công nghệ (EdTech).
+
+# DỮ LIỆU KHÓA HỌC (BẤT BIẾN)
+- Khóa học: Python cơ bản dành cho người mới bắt đầu.
+- Đối tượng mục tiêu: Sinh viên năm nhất (độ tuổi 18–20).
+- Thời lượng: 8 tuần.
+- Mục tiêu chiến dịch: Thu hút 100 lượt đăng ký tư vấn.
+- Kênh triển khai: Facebook và TikTok.
+
+# NHIỆM VỤ
+Phân tích chi tiết chân dung khách hàng mục tiêu (Sinh viên năm nhất 18–20 tuổi) đối với khóa học trên. Trình bày rõ:
+1. Nhân khẩu học & Bối cảnh học tập.
+2. Nỗi đau (Pain points) khi mới bước vào giảng đường đại học.
+3. Động lực & Mong muốn (Gains) khi tìm hiểu lập trình Python.
+4. Rào cản tâm lý khiến họ ngần ngại đăng ký.
+5. Thói quen tiêu thụ nội dung trên Facebook và TikTok.
+
+# RÀNG BUỘC
+Tuyệt đối bám sát thông tin khóa học đã cho, không tự ý thêm học phí, cam kết việc làm hay thay đổi thời lượng 8 tuần.
+Prompt 2: Xác định Thông điệp Truyền thông ChínhMarkdown# VAI TRÒ
+Bạn là Giám đốc Sáng tạo (Creative Director) chuyên xây dựng chiến dịch tuyển sinh cho giới trẻ.
+
+# ĐẦU VÀO TỪ BƯỚC TRƯỚC
+[Dán toàn bộ Output của Prompt 1 vào đây]
+
+# DỮ LIỆU KHÓA HỌC (BẤT BIẾN)
+- Khóa học: Python cơ bản cho người mới bắt đầu | Thời lượng: 8 tuần | Mục tiêu: 100 lượt đăng ký tư vấn | Kênh: Facebook, TikTok.
+
+# NHIỆM VỤ
+Dựa trực tiếp vào Nỗi đau và Động lực từ chân dung khách hàng ở trên, hãy đề xuất:
+1. **01 Thông điệp truyền thông chính (Key Message):** Ngắn gọn, súc tích, đánh trúng tâm lý sinh viên năm nhất 18–20 tuổi và nêu bật lộ trình 8 tuần.
+2. **03 Thông điệp bổ trợ (Supporting Messages):** Giải quyết các rào cản tâm lý của người mới bắt đầu.
+3. **Định hướng giọng văn (Tone of Voice):** Phù hợp để triển khai đồng bộ trên cả Facebook và TikTok.
+Prompt 3: Xây dựng Lịch đăng nội dung 7 ngàyMarkdown# VAI TRÒ
+Bạn là Chuyên gia Lập kế hoạch Nội dung Số (Digital Content Strategist).
+
+# ĐẦU VÀO TỪ BƯỚC TRƯỚC
+- Chân dung khách hàng: [Dán tóm tắt Output Prompt 1]
+- Thông điệp truyền thông: [Dán Output Prompt 2]
+
+# NHIỆM VỤ
+Xây dựng kế hoạch nội dung chi tiết trong **7 ngày** trên 2 kênh **Facebook** và **TikTok** nhằm đạt mục tiêu **100 lượt đăng ký tư vấn** cho khóa học Python cơ bản (8 tuần).
+Trình bày dưới dạng bảng gồm các cột: Ngày | Giai đoạn phễu (Nhận biết / Cân nhắc / Chuyển đổi) | Kênh đăng | Chủ đề & Định dạng | Mục tiêu kêu gọi hành động (CTA).
+
+# RÀNG BUỘC
+Mọi tuyến bài đều phải xoay quanh Thông điệp truyền thông chính ở Prompt 2 và giữ nguyên thông tin khóa học (8 tuần, dành cho người mới bắt đầu).
+Prompt 4: Viết bài quảng cáo Facebook và Kịch bản TikTokMarkdown# VAI TRÒ
+Bạn là Senior Copywriter & TikTok Content Creator chuyên viết nội dung chuyển đổi cao.
+
+# ĐẦU VÀO TỪ BƯỚC TRƯỚC
+- Thông điệp chính & Giọng văn: [Dán Output Prompt 2]
+- Kế hoạch nội dung 7 ngày: [Dán Output Prompt 3]
+
+# NHIỆM VỤ
+Dựa trên kế hoạch 7 ngày đã lập, hãy viết chi tiết:
+1. **02 Bài đăng Facebook:**
+   - Bài 1 (Giai đoạn Nhận biết/Cân nhắc): Đánh vào nỗi đau của sinh viên năm nhất, giới thiệu giải pháp khóa học 8 tuần.
+   - Bài 2 (Giai đoạn Chuyển đổi): Thúc đẩy hành động để đạt KPI 100 lượt đăng ký tư vấn.
+   *(Yêu cầu: Có Hook thu hút, thân bài rõ ràng, CTA kêu gọi để lại thông tin tư vấn).*
+2. **02 Kịch bản video TikTok (thời lượng 30–45 giây):**
+   - Kịch bản 1: Dạng tình huống/tâm sự sinh viên năm nhất (Hook 3 giây đầu mạnh mẽ).
+   - Kịch bản 2: Giải đáp hiểu lầm về học lập trình cho người chưa biết gì & giới thiệu lộ trình 8 tuần.
+   *(Yêu cầu: Trình bày dạng bảng gồm: Thời gian | Hình ảnh/Hành động | Lời thoại/Text trên màn hình).*
+Prompt 5: Kiểm tra Tính nhất quán Toàn chiến dịchMarkdown# VAI TRÒ
+Bạn là Quản lý Chất lượng Chiến dịch Marketing (Marketing QA Manager) cực kỳ khắt khe và chi tiết.
+
+# ĐẦU VÀO TỪ BƯỚC TRƯỚC
+- Thông số gốc: Khóa Python cơ bản cho người mới, SV năm nhất (18–20 tuổi), 8 tuần, KPI 100 lượt đăng ký tư vấn, kênh Facebook & TikTok.
+- Chân dung khách hàng: [Dán Output Prompt 1]
+- Thông điệp chính: [Dán Output Prompt 2]
+- Lịch nội dung 7 ngày: [Dán Output Prompt 3]
+- Bài viết FB & Kịch bản TikTok: [Dán Output Prompt 4]
+
+# NHIỆM VỤ
+Rà soát chéo toàn bộ các đầu ra trên và lập **Báo cáo Kiểm tra Tính nhất quán** theo 4 tiêu chí:
+1. Độ chính xác của thông tin khóa học (có bị tự ý thay đổi thời lượng 8 tuần, đối tượng hay mục tiêu không?).
+2. Sự liên kết giữa Chân dung khách hàng (Prompt 1) $\rightarrow$ Thông điệp (Prompt 2) $\rightarrow$ Nội dung triển khai (Prompt 3 & 4).
+3. Tính khả thi trong việc hướng tới mục tiêu 100 lượt đăng ký tư vấn trên Facebook và TikTok.
+4. Chỉ ra điểm yếu hoặc sai lệch (nếu có) và đề xuất chỉnh sửa cụ thể.
+Phần 3: Kết quả đầu ra mẫu (Sau khi chạy chuỗi Prompt)1. Chân dung khách hàng mục tiêu (Output Prompt 1)Nhân khẩu học: Sinh viên năm nhất, độ tuổi 18–20, vừa chuyển tiếp từ cấp 3 lên môi trường đại học (bao gồm cả sinh viên khối ngành kỹ thuật lẫn kinh tế muốn học thêm kỹ năng).Nỗi đau (Pain points):Choáng ngợp với phương pháp tự học ở đại học; nhiều bạn gặp môn Nhập môn lập trình nhưng chưa từng tiếp xúc với code nên dễ mất gốc ngay từ kỳ đầu.Mông lung về định hướng tương lai, sợ ra trường thiếu kỹ năng thực tế nhưng chưa biết bắt đầu từ đâu.Động lực (Gains): Muốn làm chủ một ngôn ngữ lập trình dễ tiếp cận, có tính ứng dụng cao (như Python) trong thời gian ngắn gọn (8 tuần) để tự tin học tốt trên trường và tạo nền tảng cho CV sau này.Rào cản tâm lý: Sợ mình "không có tư duy logic", "chưa biết gì về IT thì không học được", sợ khóa học kéo dài lê thê làm ảnh hưởng lịch học chính khóa.Hành vi mạng xã hội: Dùng TikTok để giải trí nhanh, thích các video ngắn 30–45 giây có tình huống thực tế, đánh trúng tâm lý; dùng Facebook (đặc biệt là các hội nhóm sinh viên năm nhất, page học thuật) để đọc thông tin chi tiết, kiểm tra độ uy tín và nhắn tin đăng ký tư vấn.2. Thông điệp truyền thông chính (Output Prompt 2)Thông điệp truyền thông chính (Key Message):"8 tuần làm chủ Python từ con số 0 – Bước đệm vững chắc cho sinh viên năm nhất bứt phá."Thông điệp bổ trợ:Không cần nền tảng IT, lộ trình thiết kế riêng cho người mới bắt đầu.Học gọn trong 8 tuần, không gây quá tải với lịch học trên giảng đường.Tư vấn lộ trình 1-1 phù hợp với mục tiêu cá nhân của từng sinh viên.Giọng văn (Tone of Voice): Gần gũi, đồng cảm, trẻ trung (ngang hàng như anh/chị khóa trên chia sẻ), rõ ràng và thực tế.3. Lịch đăng nội dung trong 7 ngày (Output Prompt 3)NgàyGiai đoạnKênhChủ đề & Định dạngMục tiêu / CTANgày 1Nhận biếtTikTokVideo ngắn: Nỗi khổ sinh viên năm nhất lần đầu nhìn thấy màn hình code.Tăng tương tác, bình luận trải nghiệm cá nhân.Ngày 2Nhận biếtFacebookBài viết kể chuyện (Storytelling): Tại sao Python là ngôn ngữ dễ thở nhất cho người mới bắt đầu?Kéo lượt chia sẻ và lưu bài viết.Ngày 3Cân nhắcTikTokVideo giải đáp: "Mất gốc tin học cấp 3 có học được Python trong 8 tuần không?"Điều hướng xem thông tin chi tiết tại bio/fanpage.Ngày 4Cân nhắcFacebookBài giới thiệu chi tiết lộ trình 8 tuần học Python cơ bản cho tân sinh viên.Kêu gọi comment/inbox nhận lộ trình chi tiết.Ngày 5Cân nhắcTikTokVideo chia sẻ 3 ứng dụng thực tế sinh viên năm nhất làm được ngay sau 8 tuần học Python.Tạo động lực học tập, kích thích nhu cầu tư vấn.Ngày 6Chuyển đổiFacebookBài quảng cáo trực diện: Mở cổng đăng ký tư vấn lộ trình học Python 8 tuần (Giới hạn 100 suất tư vấn đầu tiên).Kêu gọi điền form / nhắn tin đăng ký tư vấn ngay.Ngày 7Chuyển đổiTikTok + FBVideo nhắc lại quyền lợi tư vấn + Bài tổng hợp Q&A chốt hạ tuần đầu tiên.Chốt lượt đăng ký tư vấn hướng tới mục tiêu 100 lượt.4. Hai bài đăng Facebook (Output Prompt 4A)Bài đăng 1: Giai đoạn Nhận biết & Cân nhắc (Ngày 4)TÂN SINH VIÊN 18–20 TUỔI: ĐỪNG ĐỂ MÔN LẬP TRÌNH TRỞ THÀNH "NỖI ÁM ẢNH" NGAY NĂM NHẤT! 💻Vừa chân ướt chân ráo bước vào giảng đường, chắc hẳn không ít bạn đang rơi vào cảnh:❌ Chưa từng viết một dòng code nào ở cấp 3, lên đại học ngơ ngác trước những khái niệm lập trình khô khan.❌ Muốn tự học thêm kỹ năng công nghệ nhưng mở tài liệu ra lại thấy mông lung, không biết bắt đầu từ đâu.❌ Sợ đăng ký các khóa học dài hạn sẽ bị ngợp, ảnh hưởng đến lịch học trên trường.Nếu bạn đang ở vạch xuất phát số 0, Python chính là lựa chọn khởi đầu thông minh nhất nhờ cú pháp đơn giản, dễ đọc như tiếng Anh và tính ứng dụng cực cao.Với thông điệp "8 tuần làm chủ Python từ con số 0 – Bước đệm vững chắc cho sinh viên năm nhất bứt phá", khóa học Python cơ bản tại trung tâm được thiết kế tối ưu dành riêng cho người mới bắt đầu:✅ Đi từ những kiến thức nền tảng nhất, không yêu cầu kinh nghiệm IT trước đó.✅ Thời lượng tinh gọn chỉ 8 tuần, giúp bạn nắm chắc tư duy lập trình mà vẫn cân bằng tốt việc học trên lớp.✅ Thực hành liên tục qua các bài tập thực tế để hiểu sâu, nhớ lâu.👉 Bạn muốn biết lộ trình 8 tuần này có phù hợp với ngành học của mình không? Để lại bình luận dấu "." hoặc nhắn tin trực tiếp cho Fanpage để được đội ngũ chuyên môn tư vấn lộ trình chi tiết hoàn toàn miễn phí!Bài đăng 2: Giai đoạn Chuyển đổi (Ngày 6)🎯 MỞ ĐĂNG KÝ TƯ VẤN KHÓA HỌC PYTHON CƠ BẢN (LỘ TRÌNH 8 TUẦN CHO SINH VIÊN NĂM NHẤT)Bạn là sinh viên năm nhất (18–20 tuổi) và đang muốn trang bị kỹ năng lập trình Python bài bản ngay từ bây giờ?Thay vì tự mày mò mất phương hướng, hãy để 8 tuần tới trở thành bước đệm vững chắc giúp bạn làm chủ Python từ con số 0!Khóa học này dành cho ai?🔹 Sinh viên năm nhất chưa từng biết gì về lập trình nhưng muốn xây dựng nền tảng tư duy công nghệ.🔹 Sinh viên cần củng cố kiến thức cơ bản để tự tin vượt qua các học phần lập trình trên giảng đường.Điều gì chờ đón bạn trong 8 tuần?📌 Nắm vững toàn bộ cú pháp và tư duy giải quyết vấn đề bằng Python cơ bản.📌 Tự tay hoàn thiện các bài tập ứng dụng thực tế sau mỗi buổi học.📌 Được hướng dẫn sát sao, giải đáp thắc mắc trực tiếp từ giảng viên.⚡ Hiện trung tâm đang mở cổng tư vấn lộ trình học tập 1-1 dành cho 100 bạn sinh viên đăng ký sớm nhất trong tuần này.👇 Hành động ngay hôm nay: Nhấn vào nút "Đăng ký" bên dưới hoặc nhắn tin trực tiếp cho Page với cú pháp [PYTHON + Năm sinh] để nhận tư vấn chi tiết về lịch khai giảng và lộ trình 8 tuần nhé!5. Hai kịch bản video TikTok 30–45 giây (Output Prompt 4B)Kịch bản 1: Tình huống tâm sự sinh viên năm nhất (Thời lượng: 35 giây)Thời gianHình ảnh / Hành độngLời thoại (Voiceover) & Text trên màn hình00s – 04sCảnh cận mặt một bạn sinh viên năm nhất ngồi trước laptop, mặt hoang mang ôm đầu.Voice: "Cảm giác của sinh viên năm nhất khi chưa biết gì về code mà phải đối mặt với bài tập lập trình..."Text: Tân sinh viên 18 tuổi và cú sốc đầu đời mang tên CODE04s – 15sChuyển cảnh nhanh: lật tài liệu dày cộp, gõ phím ngập ngừng, màn hình báo lỗi đỏ rực.Voice: "Tự tìm tài liệu trên mạng thì bơi trong biển kiến thức. Hỏi bạn bè thì đứa nào cũng bảo dễ lắm, nhưng dễ ở đâu thì không ai chỉ."15s – 28sBạn sinh viên gấp laptop lại, chuyển sang góc quay sáng sủa, tự tin hơn, mở giao diện code Python chạy mượt mà.Voice: "Nếu bạn đang ở con số 0, đừng tự làm khó mình nữa. Bắt đầu ngay với lộ trình Python cơ bản chỉ trong 8 tuần – thiết kế riêng cho người mới bắt đầu."Text: 8 tuần làm chủ Python từ con số 028s – 35sChỉ tay xuống góc trái màn hình / nút nhắn tin.Voice: "Nhắn tin ngay cho kênh để nhận tư vấn lộ trình 8 tuần chi tiết dành riêng cho sinh viên năm nhất nhé!"Text: Inbox nhận tư vấn lộ trình 8 tuần ngay!Kịch bản 2: Giải đáp hiểu lầm cho người mới bắt đầu (Thời lượng: 40 giây)Thời gianHình ảnh / Hành độngLời thoại (Voiceover) & Text trên màn hình00s – 04sNgười nói nhìn thẳng camera, giơ tay ra hiệu "Dừng lại".Voice: "Khoan! Nếu bạn nghĩ phải giỏi Toán hoặc biết sẵn về IT mới học được lập trình thì xem hết video này."Text: Mất gốc IT có học được Python không?04s – 18sHiển thị các dòng lệnh Python đơn giản (print("Hello"), phép tính cơ bản) minh họa sự trực quan.Voice: "Sự thật là Python có cú pháp cực kỳ gần với tiếng Anh giao tiếp. Rất nhiều bạn sinh viên năm nhất 18, 19 tuổi bắt đầu từ con số 0 vẫn có thể đọc hiểu và viết được chương trình cơ bản."18s – 32sChuyển sang bảng tóm tắt lộ trình 8 tuần chia theo từng chặng ngắn gọn.Voice: "Quan trọng là bạn cần một lộ trình đi từng bước chậm mà chắc. Khóa Python cơ bản 8 tuần sẽ giúp bạn xây nền tảng vững vàng mà không bị quá tải với lịch học trên trường."Text: Lộ trình 8 tuần tinh gọn cho người mới32s – 40sCười tươi, chỉ hướng về liên kết ở trang cá nhân / Fanpage.Voice: "Trung tâm đang mở 100 suất tư vấn lộ trình miễn phí cho sinh viên năm nhất. Nhấn vào link hoặc nhắn tin ngay để giữ chỗ nhé!"Text: Đăng ký tư vấn ngay – Giới hạn 100 suất!6. Báo cáo kiểm tra tính nhất quán (Output Prompt 5)Tiêu chí kiểm traKết quả đối chiếuĐánh giá1. Thông số khóa học gốc- Khóa học: Python cơ bản cho người mới bắt đầu (Giữ nguyên).- Đối tượng: Sinh viên năm nhất, 18–20 tuổi (Giữ nguyên).- Thời lượng: 8 tuần (Nhất quán ở tất cả bài viết và kịch bản).- Kênh: Facebook & TikTok (Đúng phạm vi).Đạt 100% — Không có tình trạng AI tự ý bịa thêm học phí, cam kết việc làm hay sai lệch thời lượng.2. Sự liên kết Chân dung $\rightarrow$ Thông điệpChân dung ở Prompt 1 chỉ ra nỗi sợ "mất gốc từ cấp 3" và "sợ khóa học dài gây quá tải". Thông điệp ở Prompt 2 giải quyết trực diện bằng cụm từ "từ con số 0" và "8 tuần".Chặt chẽ — Thông điệp bám sát insight.3. Sự liên kết Thông điệp $\rightarrow$ Nội dung triển khaiLịch 7 ngày, 2 bài Facebook và 2 kịch bản TikTok đều lặp lại nhất quán thông điệp chính và sử dụng đúng giọng văn đồng cảm với tân sinh viên.Đồng bộ — Phù hợp đặc thù từng nền tảng (TikTok ngắn gọn, đánh vào cảm xúc; Facebook đầy đủ thông tin, kêu gọi chuyển đổi).4. Mục tiêu KPI (100 lượt đăng ký tư vấn)Toàn bộ CTA ở cuối các bài viết/video đều tập trung vào hành động "đăng ký tư vấn lộ trình" thay vì bán khóa học trực tiếp quá sớm.
